@@ -1,0 +1,5 @@
+TestApplication\application\LibraryControllerTest.class
+TestApplication\application\LibraryServiceTest.class
+TestApplication\application\BookRepositoryTest.class
+TestApplication\application\BorrowerRepositoryTest.class
+TestApplication\application\ApplicationTests.class

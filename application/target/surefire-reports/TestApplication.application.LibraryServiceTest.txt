@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestApplication.application.LibraryServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.890 s <<< FAILURE! -- in TestApplication.application.LibraryServiceTest
+TestApplication.application.LibraryServiceTest.testBorrowBookNotFound -- Time elapsed: 0.015 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected exception.ResourceNotFoundException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at TestApplication.application.LibraryServiceTest.testBorrowBookNotFound(LibraryServiceTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+TestApplication.application.LibraryServiceTest.testReturnBookNotFound -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected exception.ResourceNotFoundException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at TestApplication.application.LibraryServiceTest.testReturnBookNotFound(LibraryServiceTest.java:95)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

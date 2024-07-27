@@ -1,0 +1,10 @@
+repositories\BookRepository.class
+services\LibraryService.class
+repositories\BorrowerRepository.class
+controllers\LibraryController.class
+TestApplication\application\Application.class
+models\Book.class
+exception\GlobalExceptionHandler.class
+models\Borrower.class
+models\BookStatus.class
+exception\ResourceNotFoundException.class
